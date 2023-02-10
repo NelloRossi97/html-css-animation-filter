@@ -89,9 +89,21 @@
     margin: 0;
     width: 550px;
 }
+
+@keyframes rotate{
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
 .ex-10-icon {
     font-size: 60px;
+    animation: rotate 1s linear infinite;
 }
+
+
 .ex-11-icon {
     font-size: 60px;
 }
