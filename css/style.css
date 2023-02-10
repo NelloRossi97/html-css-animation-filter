@@ -80,6 +80,14 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 2s;
+}
+
+.ex-9-img:hover{
+    filter: grayscale(60%) sepia(50%);
+    border-radius: 20px;
+    margin: 0;
+    width: 550px;
 }
 .ex-10-icon {
     font-size: 60px;
